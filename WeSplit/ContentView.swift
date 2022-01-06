@@ -9,10 +9,26 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Hello, world!")
-                .padding()
-            Text("HELLO")
+        Form {
+            Section {
+                Text("Hello, world!")
+                Text("Hello, world!")
+                Text("Hello, world!")
+                Text("Hello, world!")
+                Text("Hello, world!")
+                Text("Hello, world!")
+                Text("Hello, world!")
+                Text("Hello, world!")
+                Text("Hello, world!")
+            }
+            Section {
+                Text("Hello, world!")
+                Text("Hello, world!")
+                Text("Hello, world!")
+               
+            }
+            
+            
         }
         
     }
