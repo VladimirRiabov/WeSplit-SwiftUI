@@ -8,24 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var tapCount = 0
+    @State private var name = ""
     
     var body: some View {
-        VStack {
-            Spacer()
-            Spacer()
-            Spacer()
-            Button("Tapp Count: \(tapCount)") {
-                tapCount += 1
-            }
-            .
-            Spacer()
-            Button("Reset") {
-                tapCount = 0
-            }
-            Spacer()
-            Spacer()
-            Spacer()
+        Form {
+            TextField("Enter your name", text: $name)
+            
+            Text(name)
         }
     }
 }
